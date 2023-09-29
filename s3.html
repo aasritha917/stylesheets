@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title> CSS Demo - One HTML page-Multiple styles</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+            h1{
+                color: rgb(86, 184, 86);
+                text-align: center;
+                font-weight: 700;
+                }
+            p{
+                text-align: center;
+            }
+            [class*=col]{
+                text-align: center;
+                background-color: darkslategrey;
+                color:white;
+                width: 4cm;
+                height: 11mm;
+                padding: 2rem;
+            }   
+            a{
+                color: black;
+            } 
+            footer{
+                padding:1px;
+                
+                border: 0px solid lightgray;
+                padding: 1rem;
+                margin: 9px;
+            }
+            div{
+                background-color: white;
+                color: black;
+                margin: 9px;
+                text-emphasis-style :2px;
+                padding: 1rem;
+                 }
+            .btn-group{
+             background-color: darkslategray; 
+             
+             color: white; 
+             padding: 10px 24px; 
+             cursor: pointer; 
+             width: 30%; 
+             display: block; 
+            }
+            .btn-group button:not(:last-child) {
+            border-bottom: none; 
+            }
+            .btn-group button:hover {
+            background-color: #3e8e41;
+            }
+            h3{
+                padding: 1px;
+                
+                color: rgb(79, 172, 79);
+            }
+            h4{
+                color: #4fac4f;
+                font-weight: 400;
+            }
+            #co{
+                background-color:#4fac4f ;
+            }
+            #d1{
+                font-size: x-small;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to My Homepage</h1>
+        <p> Use the menu to select different Stylesheets</p>
+        
+        <div class="container-fluid">
+        <div class="row">
+            <div href="s1.html" class="btn-group">Stylesheet1</div>
+            <div href="s2.html" class="btn-group">Stylesheet2</div>
+            <div id="co" href="s3.html"class="btn-group">Stylesheet3</div>
+            <div href="s4.html"class="btn-group">Stylesheet4</div>
+            <div href="noss.html"class="btn-group">No stylesheet</div>
+        </div>
+    </div>
+        
+        <h1>Same Page Different Stylesheets </h1>
+        <p1>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p1><br>
+        <a href="s1.html"> Stylesheet1</a>,
+        <a href="s2.html"> Stylesheet2</a>,
+        <a href="s3.html"> Stylesheet3</a>,
+        <a href="s4.html"> stylesheet4</a>.
+        <h4><b>No Styles</h4></b>
+        <p2>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p2><br>
+        <a href="noss.html">No Stylesheet</a><br><br>
+        <footer>
+        <h3><b>Side-Bar</h3></b>
+        <p3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p3><br><br>
+        </footer>
+        <div id="d1">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    </body>
+</html>
